@@ -53,7 +53,7 @@ Our `index.js` file is completed for us. It loads App as the top level component
 
 #### `data.js`
 
-This file contains seed data for __Actors, Movies & Directors__
+This file contains seed data for __Actors, Movies and Directors__
 
 ## Component Info
 
@@ -76,27 +76,25 @@ This component needs to render 4 `<NavLink>` components. They will be for __/,
 
 #### `Home`
 
-This component should render the text `Home Page` in a `<h1>`.
+This component should render the text `Home Page`.
 
 #### `Movies`
 
-This component should render the text `Movies Page` in a `<h1>`, and make a new `<div>` for
+This component should render the text `Movies Page`, and make a new `<div>` for
 each movie. The `<div>` should contain the movie's title, time and an `<ul>` for
 each genre.
 
 #### `Directors`
 
-This component should render the text `Directors Page` in a `<h1>`, and make a new `<div>`
+This component should render the text `Directors Page`, and make a new `<div>`
 for each director. The `<div>` should contain the director's name and an `<ul>`
 for each of their movies.
 
 #### `Actors`
 
-This component should render the text `Actors Page` in a `<h1>`, and make a new `<div>` for
+This component should render the text `Actors Page`, and make a new `<div>` for
 each actor. The `<div>` should contain the actor's name and an `<ul>` for each
-of their movies. 
-
-> Note: The tests will count how many `<div>`s are nested inside your `Movies`, `Directors`, and `Actors` components. So to get tests to pass, you must create _exactly one_ `<div>` for each movie, director, or actor, and no additional nested `<div>`s in those components. 
+of their movies.
 
 ## Resources
 
